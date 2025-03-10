@@ -1,24 +1,29 @@
 {
-    "manifest_version": 3,
-    "name": "BigTube",
-    "version": "1.1",
-    "description": "Redirects YouTube video URLs to yout-ube.com with a toggle switch.",
-    "background": {
-        "service_worker": "background.js"
-    },
-    "permissions": [
-        "webNavigation",
-        "tabs"
-    ],
-    "host_permissions": [
-        "*://www.youtube.com/*"
-    ],
-    "action": {
-        "default_popup": "popup/popup.html"
-    },
-    "icons": {
-        "16": "images/icon16.png",
-        "48": "images/icon48.png",
-        "128": "images/icon128.png"
-    }
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "description": "Redirects YouTube video URLs to yout-ube.com with a toggle switch.",
+  "detailed_description": "Redirects YouTube video URLs to yout-ube.com with a toggle switch.",
+  "developer": {
+    "name": "F1dg3t"
+  },
+  "host_permissions": [
+    "*://www.youtube.com/*"
+  ],
+  "icons": {
+    "128": "images/icon128.png",
+    "16": "images/icon16.png",
+    "48": "images/icon48.png"
+  },
+  "manifest_version": 3,
+  "name": "BigTube",
+  "permissions": [
+    "webNavigation",
+    "tabs"
+  ],
+  "update_url": "https://extension-updates.opera.com/api/omaha/update/",
+  "version": "1.1"
 }
